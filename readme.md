@@ -18,9 +18,9 @@ Bothering with long urls? Don't worry anymore. We cover your back. Use this simp
 
 ## Screenshots
 
-[screenshot1](https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_%28novel%29)
+[screenshot1](https://github.com/Xavier-Hsiao/url-shortener/blob/master/public/screenshots/url-shortener-1.png)
 
-[screenshot2](https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_%28novel%29)
+[screenshot2](https://github.com/Xavier-Hsiao/url-shortener/blob/master/public/screenshots/url-shortener-2.png)
 
 ## Installation
 
