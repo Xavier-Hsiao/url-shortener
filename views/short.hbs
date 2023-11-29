@@ -1,7 +1,9 @@
 <div class="result">
   <h2>Success! Please use the link:</h2>
   <div class="copy-area">
-    <a href="{{shortUrl}}">{{shortUrl}}</a>
-    <button class="copy-btn"><i class="fa-regular fa-copy"></i></button>
+    <input id="short-url" type="text" value="{{shortUrl}}" />
+    <button onclick="clipboard()" class="copy-btn"><i
+        class="fa-regular fa-copy"
+      ></i></button>
   </div>
 </div>

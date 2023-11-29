@@ -80,5 +80,5 @@ function shorten(originalUrl) {
 }
 
 app.listen(port, () => {
-  console.log(`Express server is running on http://localhost:${port}`);
+  console.log("The server is on!");
 });
