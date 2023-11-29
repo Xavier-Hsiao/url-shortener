@@ -47,6 +47,12 @@ input[type="url"]:focus {
   color: white;
 }
 
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Copy area */
 .copy-area {
   display: flex;
@@ -68,7 +74,6 @@ i {
   outline-style: none;
 }
 
-
 .copy-btn {
   margin: 0.5rem;
   background-color: white;
@@ -76,4 +81,23 @@ i {
 }
 .copy-btn:hover {
   cursor: pointer;
+}
+
+.resume-btn {
+  width: 50%;
+  margin-top: 20px;
+  padding: 0.5rem 0;
+  background-color: white;
+  border: 2px solid #dc4c64;
+  border-radius: 16px;
+  color: #dc4c64;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+}
+.resume-btn:hover {
+  cursor: pointer;
+  background-color: #dc4c64;
+  color: white;
 }
