@@ -61,13 +61,13 @@ i {
 #short-url {
   padding: 0.5rem;
   border: none;
+  /* 目前無法解決 short url 在 input 裡面會被切掉的問題 */
   overflow: visible;
   background-color: white;
   color: #3b71ca;
-}
-.copy-area > input:hover {
   outline-style: none;
 }
+
 
 .copy-btn {
   margin: 0.5rem;

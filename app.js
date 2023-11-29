@@ -24,6 +24,20 @@ app.get("/shorten", (req, res) => {
   }
 });
 
+// 將短網址重新導向至原始網站
+app.get("/:id", (req, res) => {
+  // 從瀏覽器搜尋欄中取得 id
+  const id = req.params.id;
+  // 透過 id 查詢 url
+  const { origin } = urls.find((url) => url.id === id);
+  // 若找不到原始網址，則返回首頁
+  if (!origin) {
+    res.redirect("/");
+  }
+  // 找到原始網址，重新導向原始網址
+  res.redirect(origin);
+});
+
 // 寫一個函式：產生大寫字母 + 小寫字母 + 數字的 collection
 function generateCollection() {
   const digits = [...Array(10)].map((_, i) => i);
