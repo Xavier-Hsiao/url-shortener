@@ -1,0 +1,10 @@
+[
+  {
+    "id": "test1",
+    "origin": "https://google.com"
+  },
+  {
+    "id": "test2",
+    "origin": "https://mlb.com"
+  }
+]
